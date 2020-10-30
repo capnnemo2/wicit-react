@@ -1,7 +1,10 @@
 .info-container {
+  &__link {
+    text-decoration: none;
+    color: blue;
+  }
 
-    & * {
-        margin-bottom: 1rem;
-    }
-
+  & * {
+    margin-bottom: 1rem;
+  }
 }
