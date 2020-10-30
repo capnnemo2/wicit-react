@@ -1,0 +1,10 @@
+.footer {
+  width: 100%;
+  height: 2rem;
+  background-color: $teal;
+
+  &__content {
+    padding: 0.2rem;
+    text-align: center;
+  }
+}
