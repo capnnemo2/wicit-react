@@ -1,0 +1,19 @@
+.about-container {
+  padding: 5rem 2rem;
+  width: 100%;
+
+  &__main {
+    width: 100%;
+    margin: 1rem auto;
+    max-width: 95rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: blue;
+  }
+
+  & * {
+    margin-bottom: 1rem;
+  }
+}

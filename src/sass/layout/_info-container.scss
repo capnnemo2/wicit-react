@@ -1,4 +1,8 @@
 .info-container {
+  &__content {
+    padding-left: 4rem;
+  }
+
   &__link {
     text-decoration: none;
     color: blue;

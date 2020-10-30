@@ -1,10 +1,11 @@
 import React from "react";
+import AboutContainer from "./AboutContainer";
 
 const writeUp = {
   main_heading: "Resources",
   heading: "Farmers' Markets",
   description:
-    "WIC offers two programs to help you buy fruits and vegetables at your local farmers' market.",
+    "WIC offers two programs to help you buy fruits and vegetables at your local farmers' market:",
   block1: {
     title: "Farmers' Market Nutrition Program (FMNP)",
     summary:
@@ -27,10 +28,14 @@ export default function InfoContainer() {
         <h2 className="heading-secondary u-center-text u-font-large">
           {writeUp.main_heading}
         </h2>
+
         <div className="info-container__heading">
           <h2 className="heading-tertiary">{writeUp.heading}</h2>
-          <p className="paragraph">{writeUp.description}</p>
+          <p className="paragraph">
+            <i>{writeUp.description}</i>
+          </p>
         </div>
+
         <div className="info-container__content">
           <h3 className="heading-quat">{writeUp.block1.title}</h3>
           <p className="paragraph">{writeUp.block1.summary}</p>
@@ -43,6 +48,7 @@ export default function InfoContainer() {
           </p>
         </div>
       </div>
+      <AboutContainer />
     </section>
   );
 }
