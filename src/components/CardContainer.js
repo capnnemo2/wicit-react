@@ -8,7 +8,7 @@ const writeUp = {
   card1: {
     heading: "What is WIC?",
     description:
-      "The Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) is a federally-funded health and nutrition program for women, infants, and children. WIC helps families by providing checks for buying healthy supplemental foods from WIC-authorized vendors, nutrition education, and help finding healthcare and other community services.",
+      "The Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) is a federally-funded health and nutrition program for women, infants, and children. WIC helps families by providing checks for buying healthy supplemental foods, nutrition education, and help finding healthcare and other community services.",
   },
   card2: {
     heading: "Who is WIC for?",
